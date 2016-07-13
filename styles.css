@@ -1,0 +1,16 @@
+
+
+		body{
+			background-image: url(https://static.pexels.com/photos/2091/creative-desk-pens-school.jpg);
+			background-size: cover;
+		}
+
+		h1{ 
+			font-size: 200px;
+			color: white;
+			text-align:center;
+			padding: 1000px;
+			font-family: 'Lato', sans-serif;
+		}
+
+		
