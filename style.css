@@ -1,62 +1,233 @@
+	body {
+		background: #fff;
+		color: #767d85;
+		font-size: 13pt;
+		font-weight: 300;
+		line-height: 1.65;
+		padding-top: 2px;
+		font-family: helvetica;
+	}
 
-body{
-	background-color: #9ac6d6;
-	font-family: sans-serif;
+	 ul {
+		list-style: none;
+	}
+
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 80em;
+	}
+
+	.inner {
+		margin: 0 auto;
+		max-width: 65em;
+	}
+
+	a {
+		color: lightgray;
+		text-decoration: none;
+	}
+
+	p {
+		margin: 0 0 2em 0;
+	}
+
+	h1 {
+		font-size: 2em;
+		line-height: 1.3;
+		color:#6E2C59;
+		font-weight: 700;
+		font-family: "acumin-pro-extra-condensed",sans-serif;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+	}
+
+	h2 {
+		font-size: 50px;
+		margin-top: 5px;
+		margin-left: 50px;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	h2, h3, h4, h5, h6 {
+		color: white;
+		font-weight: 700;
+		font-family: "acumin-pro-extra-condensed",sans-serif;
+		line-height: 1.5;
+		margin: 0 0 1em 0;
+	}
+
+	.box {
+		border-radius: 3px;
+		border: solid 2px #dee1e3;
+		margin-bottom: 1em;
+		overflow: hidden;
+	}
+
+		.box .content {
+			padding: 0.8em;
+			text-decoration: none;
+		}
+
+	.image {
+		border: 0;
+		display: inline-block;
+		position: relative;
+	}
+
+		.image img {
+			display: block;
+		}
+	
+		.image.fit img {
+				width: 100%;
+		}
+
+		.image.main img {
+				width: 100%;
+		}
+
+	.button1{
+		background-color: #B4567A;
+		color: white;
+		width: 100px;
+		height: 50px;
+		text-align: center;
+		margin-left: 500px;
+		text-transform: uppercase;
+		border-radius: 4px;
+
+	}
+	
+	.button:hover {
+		background-color: #B4567A;
+		border-radius: 4px;
+		border: 0;
+		color: white;
+		display: inline-block;
+		line-height: 3em;
+		padding: 0 3.5em;
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		 width: 50px;
+    	height: 50px;
+    	-webkit-transition: background-color 0.7s ease-in-out, color 0.5s ease-in-out;
+    	transition: background-color 0.7s ease-in-out, color 0.5s ease-in-out;
+}
+
+	.flex {
+		display: flex;
+	}
+
+
+	.wrapper {
+		padding: 4em 0 4em 0;
+	}
+
+		
+		.wrapper.style1 {
+			background: #f6755e;
+			color: #fcdcd6;
+		}
+
+
+	#header {
+		
+		align-items: center;
+		background: #fff;
+		height: 2em;
+		left: 0;
+		margin-top: 3px;
+		line-height: 1em;
+		width: 100%;
+		z-index: 10001;
+		text-align: center;
+	}
+
+		#header .logo {
+			color: lightgray;
+			font-family: "acumin-pro-extra-condensed",sans-serif;
+			font-size: 2.5em;
+			letter-spacing: 3px;
+			margin-top: 3px;
+			text-decoration: none;
+			display: inline-block;
+		}
+
+		#header nav {
+			position: absolute;
+			height: inherit;
+		}
+
+		#header {
+			height: 70px;
+			line-height: 44px;
+			min-width: 320px;
+		}
+
+			#header .logo {
+				font-size: 40px;
+				text-align: center;
+				margin-top: 10px;
+			}
+
+	#banner {
+		padding: 14em 0 12em 0;
+		background-image: url(../../images/banner.jpg);
+		color: black;
+		background-size: cover;
+		background-position: center top;
+		background-repeat: no-repeat;
+		text-align: center;
+	}
+
+		#banner h1 {
+			font-size: 4em;
+			color: #6E2C59;
+			line-height: 1em;
+			margin: 0 0 0.5em 0;
+			padding: 0;
+		}
+
+		.nav {
+	animation-duration: 2s;
+	animation-delay: 1s;
 
 }
 
-h1,h2,h3{
-	font-family: "eloquent-jf-pro",sans-serif;
-	color: #9ac6d6;
-	border-top: 2px dashed #9ac6d6;
-	padding-top: 10px;
-	padding-left: 10px;
-}
+		.intern {
+	animation-duration: 2s;
+	animation-delay: 4s;
 
-a{
-	text-decoration: none;
-	color: white;
-	font-family: serif;
-	background-color: #9ac6d6;
- 	border-top: 0px #9ac6d6;
- 	margin-top: 20px;
- 	padding-top: 20px;
-    padding-right: 42px;
-    padding-bottom: 20px;
-    padding-left: 42px;
-    display:inline-block;
 }
+		#banner p {
+			font-size: 1.25em;
+			margin-bottom: 1.75em;
+		}
 
-#rsvp{
-	text-decoration: none;
-	color: white;
-}
+	#footer {
+		padding: 4em 0 4em 0;
+		background: #35B8AF;
+		text-align: center;
+		color: white;
+		font-size: 0.75em;
+	}
 
-.box{
-	border-style:solid;
-	border-width: 1px;
-	background-color: white;
-	padding-left: 10px;
-	padding-top: 5px;
-	padding-bottom: 5px;
-	padding-right: 10px;
-}
+		#footer h2 {
+			color: white;
+		}
 
-#article {
- background-color: #dfeff4;
- background-image: url(bg_page.png);
- background-repeat: repeat-y;
- background-position: center top;
- padding: 0;
- margin: 0 auto;
- width: 760px;
-}
-
-p{
-	text-align: justify;
-}
-
-img{
-	width: 750px;
-	height: 500px;
-}
+		#footer .copyright {
+			display: inline-block;
+			color: white;
+			font-size: 0.75em;
+			margin: 0 0 1em 0;
+			padding: 0;
+			text-align: center;
+			padding: 2em 10em;
+		}
+		
